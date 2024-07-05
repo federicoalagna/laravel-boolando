@@ -1,4 +1,7 @@
 <header>
-    @include('shared.logo')
-    @include('shared.menu')
+    <div class="container">
+        @include('shared.logo')
+        @include('shared.menu')
+    </div>
+
 </header>

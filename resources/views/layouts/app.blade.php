@@ -10,10 +10,14 @@
 </head>
 
 <body>
-    @include('shared.header')
-    <main>ciao</main>
-    @include('shared.footer')
 
+    @include('shared.header')
+    <main>
+        <div class="container">
+            @yield('main')
+        </div>
+    </main>
+    @include('shared.footer')
 
 </body>
 
