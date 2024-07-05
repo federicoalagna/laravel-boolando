@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('main')
-    prodotti
+    <h1>{{ $title }}</h1>
 @endsection
