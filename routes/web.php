@@ -23,13 +23,11 @@ Route::get('/', function () {
 
 Route::get('/products', function () {
 
-    $data = [
-        'products' => config('products')
 
-    ];
 
     $data = [
-        'title' => 'Pagina Prodotti'
+        'title' => 'Pagina Prodotti',
+        'products' => config('product')
     ];
 
     return view('products', $data);
